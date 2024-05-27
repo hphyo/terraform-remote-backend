@@ -28,8 +28,3 @@ variable "billing_dynamodb_mode" {
   default     = "PAY_PER_REQUEST"
 }
 
-variable "billing_dynamodb_mode" {
-  description = "BCA Master Dynamodb Billing Mode"
-  type        = string
-  default     = "PAY_PER_REQUEST"
-}
